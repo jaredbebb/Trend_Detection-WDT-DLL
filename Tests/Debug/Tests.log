@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  DistanceMeasures_Test.cpp
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(20): warning C4251: 'DistanceMeasures::distance_measure_name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'DistanceMeasures'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+     Creating library D:\Documents\Visual Studio\repos\Trend_Detection_Console_App\Debug\Tests.lib and object D:\Documents\Visual Studio\repos\Trend_Detection_Console_App\Debug\Tests.exp
+  Tests.vcxproj -> D:\Documents\Visual Studio\repos\Trend_Detection_Console_App\Debug\Tests.dll

@@ -1,0 +1,67 @@
+﻿  stdafx.cpp
+  DistanceMeasures.cpp
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(20): warning C4251: 'DistanceMeasures::distance_measure_name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'DistanceMeasures'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.cpp(7): warning C4273: 'DistanceMeasures::DistanceMeasures': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(15): note: see previous definition of '{ctor}'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.cpp(9): warning C4273: 'DistanceMeasures::~DistanceMeasures': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(16): note: see previous definition of '{dtor}'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.cpp(12): warning C4273: 'DistanceMeasures::euclidean': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(17): note: see previous definition of 'euclidean'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.cpp(21): warning C4273: 'DistanceMeasures::SetName': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(18): note: see previous definition of 'SetName'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.cpp(25): warning C4273: 'DistanceMeasures::GetName': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(19): note: see previous definition of 'GetName'
+  dllmain.cpp
+  Trend_Detection.cpp
+  WeightedDataTemplates.cpp
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\distancemeasures.h(20): warning C4251: 'DistanceMeasures::distance_measure_name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'DistanceMeasures'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(30): warning C4251: 'WeightedDataTemplates::total_series': class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'WeightedDataTemplates'
+          with
+          [
+              _Ty=double
+          ]
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(30): note: see declaration of 'std::vector<double,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=double
+          ]
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(7): warning C4273: 'WeightedDataTemplates::WeightedDataTemplates': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(14): note: see previous definition of '{ctor}'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(17): warning C4273: 'WeightedDataTemplates::~WeightedDataTemplates': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(15): note: see previous definition of '{dtor}'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(22): warning C4273: 'WeightedDataTemplates::update': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(16): note: see previous definition of 'update'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(27): warning C4018: '<': signed/unsigned mismatch
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(35): warning C4273: 'WeightedDataTemplates::get_results': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(17): note: see previous definition of 'get_results'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(42): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(45): warning C4273: 'WeightedDataTemplates::weight': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(18): note: see previous definition of 'weight'
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(61): warning C4273: 'WeightedDataTemplates::set_up_distance_measures': inconsistent dll linkage
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.h(19): note: see previous definition of 'set_up_distance_measures'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\numeric(26): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\numeric(36): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(26): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  Generating Code...
+d:\documents\visual studio\repos\trend_detection_console_app\trend_detection\weighteddatatemplates.cpp(33): warning C4715: 'WeightedDataTemplates::update': not all control paths return a value
+     Creating library D:\Documents\Visual Studio\repos\Trend_Detection_Console_App\Debug\Trend_Detection.lib and object D:\Documents\Visual Studio\repos\Trend_Detection_Console_App\Debug\Trend_Detection.exp
+WeightedDataTemplates.obj : warning LNK4217: locally defined symbol ??0DistanceMeasures@@QAE@XZ (public: __thiscall DistanceMeasures::DistanceMeasures(void)) imported in function "public: __thiscall WeightedDataTemplates::WeightedDataTemplates(void)" (??0WeightedDataTemplates@@QAE@XZ)
+WeightedDataTemplates.obj : warning LNK4217: locally defined symbol ??1DistanceMeasures@@QAE@XZ (public: __thiscall DistanceMeasures::~DistanceMeasures(void)) imported in function __unwindfunclet$??0WeightedDataTemplates@@QAE@XZ$0
+WeightedDataTemplates.obj : warning LNK4217: locally defined symbol ?euclidean@DistanceMeasures@@QAENAAV?$unique_ptr@$$BY0A@NU?$default_delete@$$BY0A@N@std@@@std@@0AAV?$unique_ptr@HU?$default_delete@H@std@@@3@@Z (public: double __thiscall DistanceMeasures::euclidean(class std::unique_ptr<double [0],struct std::default_delete<double [0]> > &,class std::unique_ptr<double [0],struct std::default_delete<double [0]> > &,class std::unique_ptr<int,struct std::default_delete<int> > &)) imported in function "public: double __thiscall WeightedDataTemplates::weight(class std::unique_ptr<double [0],struct std::default_delete<double [0]> > &,class std::unique_ptr<double [0],struct std::default_delete<double [0]> > &,class std::unique_ptr<int,struct std::default_delete<int> > &)" (?weight@WeightedDataTemplates@@QAENAAV?$unique_ptr@$$BY0A@NU?$default_delete@$$BY0A@N@std@@@std@@0AAV?$unique_ptr@HU?$default_delete@H@std@@@3@@Z)
+WeightedDataTemplates.obj : warning LNK4217: locally defined symbol ?SetName@DistanceMeasures@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: void __thiscall DistanceMeasures::SetName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)) imported in function "public: void __thiscall WeightedDataTemplates::set_up_distance_measures(void)" (?set_up_distance_measures@WeightedDataTemplates@@QAEXXZ)
+  Trend_Detection.vcxproj -> D:\Documents\Visual Studio\repos\Trend_Detection_Console_App\Debug\Trend_Detection.dll
